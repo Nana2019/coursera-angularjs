@@ -11,9 +11,9 @@ function LunchCheckController($scope) {
     var string = $scope.dishes.split(',');
     var valueOfStr = string.length;
     if(valueOfStr <= 3) {
-      $scope.msg="Enjoy!";
+      $scope.msg="Enjoy!!!";
     }else {
-      $scope.msg = "Too much!";
+      $scope.msg = "Too much!!!";
     }
   };
 }
